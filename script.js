@@ -27,8 +27,11 @@ getCurrentTabUrl(tabInfo  => {
 
     document.getElementById("text").innerHTML = title;
 
+
     axios.get(`185.177.21.13:3000/addSite?url=${url}&favicon_url=${favicon_url}&title=${title}`, (err) => {
         if(err != undefined)
             console.log(err);
+
+        console.log("request sent!");
     });
 });
