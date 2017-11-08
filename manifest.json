@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "extension_http_post",
+    "description" : "A simple chrome extension to send tab data to a server",
+    "version" : "1.0",
+
+    "browser_action" : {
+        "default_icon" : "IMG/favicon.jpg",
+        "default_popup" : "sent.html"
+    },
+
+    "permissions" : [
+        "activeTab",
+        "storage"
+    ]
+}

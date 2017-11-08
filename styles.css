@@ -1,0 +1,16 @@
+body {
+    background-color: #71397c;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 70px;
+}
+
+body h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    color: #fff;
+    vertical-align: center;
+    margin-bottom: 30%;
+}
